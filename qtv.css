@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+}
+
+.sidebar {
+    width: 280px;
+    height: 70vh;
+    background: #333;
+    color: #fff;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.sidebar h2 {
+    margin-bottom: 30px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+    left: 10px;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    display: flex;
+    text-align: center;
+    width: 260px;
+}
+
+.content {
+    position: relative;
+    flex: 1;
+    padding: 50px;
+}
+#text{
+    display: block;
+    border-style: none;
+    border-radius: 5px;
+    border: 2px solid rgb(128, 128, 128);
+    left: 20px;
+    background-color: rgb(179, 160, 166);
+    padding-left: 20px;
+}
+
+h2 {
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+}
+
+p {
+    font-size: 25px;
+    line-height: 1.6;
+    color: #000000;
+}
+
+#footer {
+    width: 100%;
+    background:#696969;
+    height: 322px;
+    margin-top:50px;
+    padding:0px 63px;
+    padding-top:57px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer .box {
+    width: 250px;
+    color:#fff;
+}
+#footer .logo img{
+    position: relative;
+    outline: none;
+    border: none;
+    height: 150px;
+}
+#footer .box .quick-menu {
+    margin-top:40px;
+}
+#footer .box .quick-menu .item li{
+    margin-bottom: 15px;
+}
+#footer .box .quick-menu .item li a{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer .box form input {
+    width: 294px;
+    height: 42px;
+    background:transparent;
+    padding-left:20px;
+    color:#fff;
+    margin-top:30px;
+}
+#footer h3{
+    font-size: 20px;
+}
+#footer .box form button {
+    background:#362f2f;
+    box-shadow: 5px 5px 4px rgba(0,0,0.25);
+    width: 163px;
+    height: 38px;
+    margin-top:29px;
+    color:#fff;
+    cursor: pointer;
+}
+.social-link a{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin-top: 40px;
+    font-size: 35px;
+}
+.social-link-facebook{
+    color: #3b5998;
+}
+.social-link-instagram{
+    color: #3f729b;
+}
+.social-link-twitter{
+    color: #55acee;
+}
+.social-link-youtube{
+    color: #cd201f;
+}
+.social-link a i:hover{
+    color: #FFCCFF;
+}
