@@ -24,8 +24,8 @@ header>nav>article>input {
 
 header>nav>article>i {
     position: absolute;
-    top: 38px;
-    right: 518px;
+    top: 16px;
+    right: 560px;
     font-size: 16px;
     cursor: pointer;
 }
