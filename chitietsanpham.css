@@ -100,12 +100,12 @@ html {
     margin: 0 auto;
     
 }
-#up{
+/* #up{
     position: relative;
     left: 40px;
     top: 0px;
 
-}
+} */
 
 .grid1__row {
     display: flex;
@@ -153,8 +153,8 @@ header>nav>article>input {
 
 header>nav>article>i {
     position: absolute;
-    top: 38px;
-    right: 518px;
+    top: 16px;
+    right: 560px;
     font-size: 16px;
     cursor: pointer;
 }
